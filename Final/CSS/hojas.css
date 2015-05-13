@@ -1,0 +1,714 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: helvetica;
+}
+.contenedor
+{
+    max-width: 760px;
+    margin: 0px auto;
+    overflow: hidden; 
+    height: 8850px;
+}
+p
+{
+     color: white;
+     font-family: url(../myFirstfonts/aparaji.ttf);
+     font-size: 25px;
+     padding: 1em 3em;
+     margin: 1em 2%;
+}
+/*Boton*/
+input[type="search"]
+{
+  padding: 1em 3em;
+  margin: 1em 25%;  
+  position: relative;
+  margin-left: 70px;
+}
+input[type="search"]{
+    width: 500px; /*ancho por defecto*/
+    background: #ededed; /*icono lupa*/
+    padding: 9px 11px 9px 32px;
+    border-radius: 15em;
+    -webkit-transition: all .5s; /* transición de .5seg a todos los elementos para chrome*/
+    -moz-transition: all .5s; /* transición de .5seg a todos los elementos para mozilla*/
+    -o-transition: all .5s; /* transición de .5seg a todos los elementos para ophera*/
+    transition: all .5s; /* transición de .5seg a todos los elementos*/
+    outline: none; /* ocultar el fucos automático de los input */
+}
+header
+{
+    background-image: url(../IMG/fondo.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin: 0 auto;
+    float: left;
+
+    
+}
+.imagen img
+{
+    padding: 1em  3em;
+    margin: 0 5%; 
+}
+   
+ 
+
+.color
+{
+    background: #c7b299;
+    padding: 1em 3em;
+    overflow: hidden;
+    height: 202px;
+    
+    
+}
+.color img
+{
+    padding: 1em 3em;
+    margin: 1em 25%;
+}
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+    margin: 5em 1em 1em 3em;
+    margin-top: 5px;
+}
+
+li:first-child
+{
+    background: #5c4e3d;
+    background-image: url(..//IMG/gorrito.png);
+    background-repeat: no-repeat;
+    background-position:right 5px;
+    font-size: 32px;
+    height: 82px; 
+    
+}
+li:nth-child(2)
+{
+    background: #7b6852;
+    font-size: 32px;
+    height: 82px;
+}
+li:nth-child(3)
+{
+    background: #958675;
+    background-image: url(..//IMG/botella.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    font-size: 32px;
+    height: 82px;
+}
+li:nth-child(4)
+{
+    background: #b0a497;
+    background-image: url(..//IMG/copa.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    font-size: 32px;
+    height: 82px;
+}
+li:nth-child(5)
+{
+    background: #c2b4b4;
+    background-image: url(..//IMG/mapa%203.png);
+   background-repeat: no-repeat;
+    background-position: right;
+    font-size: 32px;
+    height: 82px;
+}
+/* que es bouquet*/
+.contenedor2
+{
+    
+    background: #5c4e3d;
+    margin: 0px auto;
+    overflow: hidden;
+    margin-top: -25px;
+    height: 580px; 
+}
+
+h1
+{
+    text-align: center;
+    color: white;
+    font-size: 53px;
+}
+#parrafo
+{
+  font-size: 24px;  
+}
+.caja
+{
+    width: 622px;
+    height: 362tpx;
+    background:#542217;
+    margin: 0 auto;
+}
+/*codigo QR*/
+.contenedor3
+{
+    height: 618px;
+    background:#82684f;
+    margin-top: 0em;
+    
+}
+.caja2
+{
+    width:633px;
+    height: 278px;
+    background: #3b402c;
+    margin: 0 auto;
+}
+.boton 
+{
+    background: #f29b11;
+    width: 266px;
+    height: 79px;
+    margin: 0 auto;
+    font-size:53px;
+    text-align: center;
+    margin-top: 23px;
+    border-radius: 5px;
+}
+.boton a
+{
+    text-decoration: none;
+    color: white;
+    font-family: helvetica;
+}
+/*tipos de cocina*/
+.contenedor4
+{
+    height: 5992px;
+    background:#958475; 
+}
+h3
+{
+    text-align: center;
+}
+
+.cajita
+{
+    width: 660px;
+    height: 620px;
+    margin: 0 auto;
+    margin-top: 36px;
+}
+#cajas:first-child
+{
+    width: 210px;
+    height: 160px;
+    margin-left: 10px;
+    float: left;
+    padding: 20px 0;
+}
+.mini
+{
+    background: #542217;
+    color: white;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+}
+#cajas:nth-child(2)
+{
+    width: 192px;
+    height: 160px;
+    float: left;
+    padding: 20px 0;
+}
+#cajas:nth-child(3)
+{
+    width: 192px;
+    height: 160px;
+    margin-left: 20px; 
+    margin-right: 0px;
+    float: left;
+    padding: 20px 0;
+}
+#cajas:nth-child(4)
+{
+     width: 192px;
+    height: 160px;
+    margin-left: 10px;
+    float: left;
+    padding: 20px 0;
+    margin-top: 10px;
+}
+#cajas:nth-child(5)
+{
+    width: 192px;
+    height: 160px;
+    margin-left: 20px;
+    margin-top: 10px;
+    float: left;
+    padding: 20px 0;
+}
+#cajas:nth-child(6)
+{
+    width: 192px;
+    height: 160px;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-top: 20px;
+    float: left;
+    padding: 20px 0;
+   
+}
+#cajas:nth-child(7)
+{
+    width: 192px;
+    height: 160px;
+    margin-left: 10px;
+    float: left;
+    padding: 20px 0;
+    margin-top: 18px;
+}
+#cajas:nth-child(8)
+{
+    width: 192px;
+    height: 160px;
+    margin-left: 20px;
+    margin-top: 10px;
+    float: left;
+    padding: 20px 0;
+}
+#cajas:nth-child(9)
+{
+    width: 192px;
+    height: 160px;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-top: 18px;
+    float: left;
+    padding: 20px 0;
+}
+
+/*boton2*/
+
+/*JAPONESA*/
+#japonl
+{
+    margin-left: 110px;  
+    width: 65px;
+    margin-top: -720px;  
+}
+.etv
+{
+    width: 55px;
+    margin-left: 310px;
+    margin-top: 85px;
+}
+.verm
+{
+    width: 50px;
+    margin-left: 250px;
+    margin-top: -500px;  
+}
+.verm1
+{
+    width: 50px;
+    margin-left: 250px;
+    margin-top:65px;  
+}
+.verm2
+{
+    width: 50px;
+    margin-left: 250px;
+    margin-top:68px;  
+}
+#ja
+{
+    padding-top: 10px;
+}
+
+#buscador2
+{
+    margin-top: 455px;
+}
+.foto
+{
+    margin-bottom: -159px;
+    margin-left: 50px;
+    margin-top: 19px;
+}
+.letra
+{
+    margin-left: 150px;
+    padding-bottom:5px;
+    font-size: 15px;
+}
+#boxes
+{
+    width: 639px;
+    height: 128px;
+    background: #55ebd8;
+    margin-top: 34px;  
+    margin: 0 auto;
+}
+#box
+{
+    width: 639px;
+    height: 128px;
+    background: #55ebd8;
+    margin-top: 34px;
+    
+}
+.cajita:nth-child(4)
+{
+    background:#6426f0;
+    height: 806px; 
+    margin-top: 148px;
+}
+/*temperatura*/
+
+.cajitas
+{
+    width: 639px;
+    height: 1261px;
+    background: #683c11;
+    margin: 0 auto;
+    margin-top: 160px;
+}
+#boxt:first-child
+{
+    width: 442px;
+    height: 483px;
+    background-image: url(..//IMG/temperatura.png);
+    margin: 0 auto;
+    margin-top: 45px;
+}
+.png
+{
+    width : 38px;
+    margin-left: 113px;
+    margin-top: -600px;
+    height : 66px;
+}
+#letra h2
+{
+    margin-left:-30px;
+    margin-top: -540px;
+}
+.png1
+{
+    width : 38px;
+    margin-left: 113px;
+    margin-top:15px;
+}
+#let h2
+{
+    margin-left: 3px;
+    margin-top:-475px;
+    
+}
+#boxt:nth-child(2)
+{
+    width: 639px;
+    height: 292px;
+    background: #36200b;
+    margin: 0 auto;
+    margin-top: 178px;
+}
+#parrafo2
+{
+    font-size: 23px;
+    color: white;
+    font-family: (aparajita) italic;
+    padding: 1em 3em;
+    margin: 1em 2%; 
+}
+
+#boxt:nth-child(3)
+{
+    width: 639px;
+    height: 58px;
+    background: #36200b;
+    margin: 0 auto;
+    margin-top: 26px;
+   
+}
+.flecha
+{
+    width : 50px;
+    margin-left: 500px;
+    margin-top: -120px;
+    height : 20px;
+    border-radius: 5px;
+    background: white; 
+}
+
+h2
+{
+    color: white;
+    margin: 0 2em;
+    float: left;
+    padding-top: 14px;
+}
+#boxt:nth-child(4)
+{
+    width: 639px;
+    height: 58px;
+    background: #36200b;
+    margin: 0 auto;
+    margin-top: 26px
+}
+#form {
+ width : 250px;
+ margin : 0 auto;
+ height : 50px;
+ }
+#form p {
+ text-align : center;
+ }
+#form label {
+ font-size : 20px;
+ }
+input[type = "radio"] {
+ display : none;
+ }
+label {
+ color : grey;
+ }
+.clasificacion {
+ direction : rtl;
+ unicode-bidi : bidi-override;
+ }
+label:hover, label:hover ~ label {
+ color : orange;
+ }
+input[type = "radio"]:checked ~ label {
+ color : orange;
+ }
+/* ingredientes*/
+.contenedor5
+{
+    
+    background: #542217;
+    margin: 0px auto;
+    margin-top: 105px;
+    height: 758px; 
+}
+
+.caja7
+{
+    width: 650px;
+    height: 472px;
+    margin: 0 auto;
+    background:#fff;
+    margin-top: 56px;
+}
+#texto
+{
+    color: black;
+    font-size: 16px;
+
+}
+.imgs
+{
+    margin-left: 43px;
+    margin-right:45px; 
+    margin-top: 11px;
+    float: left;
+
+}
+#masa
+{
+    margin-top: 30px;
+    display: block;
+     
+}
+/*reserva*/
+#black
+{
+    width: 639px;
+    height: 77px;
+    background: black;
+    margin: 0 auto;
+    margin-top: 26px; 
+}
+.mapita
+{
+    margin-bottom: -99px;
+    margin-left: 500px;
+    width: 50px;
+}
+
+/*uozo*/
+.contenedor11
+{
+    margin-top: 178px;
+}
+.uozo
+{
+    width: 650px;
+    height: 1082px;
+    background: black;
+    margin: 0 auto;
+}
+#fuozo
+{
+    width: 527px;
+    height: 393px;
+    background-image: url(..//IMG/uozo.png);
+    margin: 0 auto;
+    margin-top: 45px;
+}
+#numero 
+{
+    margin-top: 10px;
+}
+.mp3
+{
+    width: 50px;
+    height: 66px;
+    margin-left: 113px;
+    position: absolute;
+    margin-top: -30px;
+}
+.direc
+{
+    margin-left: 159px;
+    margin-top:53px; 
+}
+.Butto
+{
+    background: #00ff00;
+    width: 266px;
+    height: 79px;
+    margin: 0 auto;
+    margin-left: 101px;
+    font-size:40px;
+    text-align: center;
+    margin-top: 231px;
+    border-radius: 5px;
+}
+.Butto a
+{
+    text-decoration: none;
+    color: black;
+    font-family: helvetica;
+}
+/*formulario de envio*/
+#form
+{
+    width: 470px;
+    padding: 0 5px;
+    margin: 0 auto;
+    
+}
+input
+{
+    width: 98%;
+    height: 33px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 1px;
+    box-shadow:3px 3px 0 #9b9b9b;
+}
+#fin
+{
+    background: #00ff00;
+    width: 305px;
+    height: 28px;
+    margin: 0 auto;
+    margin-top: 165px;
+    border-radius: 5px;
+}
+#fin a
+{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    float: left;
+    margin-left: 71px;
+}
+iframe
+{
+    margin: 0 auto;
+    
+}
+@font-face
+{
+    font-family: myFirstFont;
+    src: url(aparajita);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*Movil*/
+    
+   @media screen and (max-width: 480px){
+	.contenedor{
+		width: 460px;
+	}
+        .imagen img
+        {
+            width: 35.20833333333333%;
+            float: none;
+           
+	}
+       header
+       {
+           width: 460px;
+       }
+        .color img
+        {
+            width: 35.20833333333333%;
+            float: none;
+        }
+        
+        nav
+        {
+            float: none;
+            margin-bottom: 20px;
+            
+        }
+        nav li a
+        {
+            float:none;
+           width: 24.86486486486486%;
+        }
+        
+    }
+  
+    
+    
+    
+    /*tablet*/
+    @media screen and (min-width: 481px) and (max-width: 768px){
+	
+	.contenedor{
+		width: 748px;
+	}
+        .imagen
+        {
+            width: 67.223880597015%;
+            
+        }
+        nav li a
+        {
+            float: none;
+            margin-right: 20px;
+        }
+    
+    }
