@@ -1,0 +1,24 @@
+<Xml version = "3.7" encoding = "UTF-8"?>  
+     <Xmlns widgets    =  "http://www.w3.org/ns/widgets"Xmlns: Brecha 
+           ="  http://phonegap.com/ns/1.0"Id =" 
+                   com.phonegap.example 
+        "versionCode  ="  10  
+              1.0.0  "> 
+
+    <! - VersionCode es opcional y Android solamente -> 
+
+    <nombre> Bouquet </ name> 
+
+    <description> 
+        Aplicación para Restaurantes
+    </ description> 
+
+    <author  href = "https://musikpiano7.wordpress.com/"Email  =" dianayineth7@gmail.com"> 
+       Diana Yineth 
+    </ author> 
+
+</ widget>
+    
+    <Brecha: Plataforma  name = "ios"  /> 
+<brecha: la plataforma  = "androide"  /> 
+<brecha: Plataforma  name = "WinPhone"  />
